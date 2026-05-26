@@ -77,9 +77,10 @@ Snake includes two border modes:
 
 The game also detects self-collision. When the round ends, the score and high score are shown, and an LED blink effect runs using bit-band aliasing.
 
-![Snake Gameplay](snake1.png)
-
-![Snake Game Over](snake2.png)
+<p align="left">
+  <img src="snake1.png" width="300">
+  <img src="snake2.png" width="350">
+</p>
 
 ## Blackjack Game
 
@@ -133,7 +134,7 @@ The Blackjack game is implemented in `blackjack.c`. It stores cards as integer v
 
 ### System Flowchart
 
-![System Flowchart](system-flowchart.png)
+![System Flowchart](systems-flowchart.png)
 
 ## Hardware Components
 
