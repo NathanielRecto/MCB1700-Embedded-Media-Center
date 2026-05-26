@@ -27,14 +27,12 @@ The Media Center includes:
 
 ## Software and Tools
 
-- Keil µVision
+- Keil µVision IDE
 - C programming language
-- LPC17xx peripheral drivers
-- GLCD_SPI_LPC1700.c
-- KBD.c
-- LED.c
-- USB Audio Demo source files
-- Bitmap-to-C image conversion tools
+- LPC17xx CMSIS and peripheral support files
+- MCB1700 GLCD, joystick, and LED driver modules
+- LPC1768 USB Audio Class Demo
+- GIMP / bitmap conversion tools for creating GLCD image arrays
 
 ## System Features
 
