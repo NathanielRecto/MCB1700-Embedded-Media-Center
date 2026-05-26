@@ -42,19 +42,19 @@ When the program starts, the GLCD displays the main menu with three options:
 
 Use the joystick **Up** and **Down** directions to move through the menu. Press **SELECT** to open the highlighted option.
 
-![Main Menu](main-menu.jpg)
+![Main Menu](main-menu.png)
 
 ### Photo Gallery
 
 The Photo Gallery displays three stored bitmap images. Each image was converted into a C array and displayed using `GLCD_Bitmap()`. When an image is shown, a matching LED turns on to indicate which image is active. Press **SELECT** to exit the image viewer and return to the gallery menu.
 
-![Photo Gallery](photo-gallery.jpg)
+![Photo Gallery](photo-gallery.png)
 
 ### Audio Player
 
 The Audio Player is based on the LPC1768 USB Audio Demo. When selected, the board acts as a USB audio speaker for the PC. Audio is streamed from the PC to the board and played through the onboard speaker. The potentiometer controls volume, and the LEDs act as a volume level indicator. Press **SELECT** to exit audio mode.
 
-![Audio Player](audio-player.jpg)
+![Audio Player](audio-player.png)
 
 ### Game Section
 
@@ -85,7 +85,7 @@ The game also detects self-collision. When the round ends, the score and high sc
 
 Blackjack is a simple text-based card game between the player and dealer. The player starts with two cards, and the dealer shows one visible card. Press **Up** to hit and **Down** to stand. The dealer then draws until reaching at least 17.
 
-The game handles Aces as either 11 or 1 depending on the total. At the end of the round, the GLCD shows whether the player wins, the dealer wins, the player busts, the dealer busts, or the round is a tie. The result also triggers an LED blink pattern using bit-band aliasing.
+The game handles Aces as either 11 or 1, depending on the total. At the end of the round, the GLCD shows whether the player wins, the dealer wins, the player busts, the dealer busts, or the round is a tie. The result also triggers an LED blink pattern using bit-band aliasing.
 
 ![Blackjack Outcome](blackjack.png)
 
