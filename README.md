@@ -6,7 +6,7 @@ MCB1700 Embedded Media Center
 
 ## Motivation
 
-This project was created for COE718: Embedded Systems Design to demonstrate an interactive embedded application using the MCB1700 development board and Keil µVision. The goal was to combine several course concepts into one working media center. The system includes a photo gallery, a USB audio player, and a game section with Snake and Blackjack. It uses the GLCD, joystick, LEDs, potentiometer, USB audio, ADC, DAC, and board support drivers.
+This project was created for a course involving Embedded Systems Design to demonstrate an interactive embedded application using the MCB1700 development board and Keil µVision. The goal was to combine several course concepts into one working media center. The system includes a photo gallery, a USB audio player, and a game section with Snake and Blackjack. It uses the GLCD, joystick, LEDs, potentiometer, USB audio, ADC, DAC, and board support drivers.
 
 ## Features
 
@@ -42,19 +42,19 @@ When the program starts, the GLCD displays the main menu with three options:
 
 Use the joystick **Up** and **Down** directions to move through the menu. Press **SELECT** to open the highlighted option.
 
-![Main Menu](assets/main-menu.jpg)
+![Main Menu](main-menu.jpg)
 
 ### Photo Gallery
 
 The Photo Gallery displays three stored bitmap images. Each image was converted into a C array and displayed using `GLCD_Bitmap()`. When an image is shown, a matching LED turns on to indicate which image is active. Press **SELECT** to exit the image viewer and return to the gallery menu.
 
-![Photo Gallery](assets/photo-gallery.jpg)
+![Photo Gallery](photo-gallery.jpg)
 
 ### Audio Player
 
 The Audio Player is based on the LPC1768 USB Audio Demo. When selected, the board acts as a USB audio speaker for the PC. Audio is streamed from the PC to the board and played through the onboard speaker. The potentiometer controls volume, and the LEDs act as a volume level indicator. Press **SELECT** to exit audio mode.
 
-![Audio Player](assets/audio-player.jpg)
+![Audio Player](audio-player.jpg)
 
 ### Game Section
 
@@ -66,11 +66,9 @@ The Game Menu provides three options:
 
 Use the joystick to choose a game and press **SELECT** to start it.
 
-![Game Menu](assets/game-menu.jpg)
-
 ## Snake Game
 
-Snake is played on a 10 by 20 GLCD text grid. The player controls the snake with the joystick. Food appears at random free positions, and the score increases when the snake eats food. The snake grows after each food item, and the movement delay decreases to make the game faster.
+Snake is played on a 10-by-20 GLCD text grid. The player controls the snake with the joystick. Food appears at random free positions, and the score increases when the snake eats food. The snake grows after each food item, and the movement delay decreases to make the game faster.
 
 Snake includes two border modes:
 
@@ -79,9 +77,9 @@ Snake includes two border modes:
 
 The game also detects self-collision. When the round ends, the score and high score are shown, and an LED blink effect runs using bit-band aliasing.
 
-![Snake Gameplay](assets/snake-gameplay.jpg)
+![Snake Gameplay](snake1.png)
 
-![Snake Game Over](assets/snake-gameover.jpg)
+![Snake Game Over](snake2.png)
 
 ## Blackjack Game
 
@@ -89,7 +87,7 @@ Blackjack is a simple text-based card game between the player and dealer. The pl
 
 The game handles Aces as either 11 or 1 depending on the total. At the end of the round, the GLCD shows whether the player wins, the dealer wins, the player busts, the dealer busts, or the round is a tie. The result also triggers an LED blink pattern using bit-band aliasing.
 
-![Blackjack Outcome](assets/blackjack-outcome.jpg)
+![Blackjack Outcome](blackjack.png)
 
 ## Controls
 
@@ -131,11 +129,11 @@ The Blackjack game is implemented in `blackjack.c`. It stores cards as integer v
 
 ### Top-Level Block Diagram
 
-![Block Diagram](diagrams/block-diagram.png)
+![Block Diagram](block-diagram.png)
 
 ### System Flowchart
 
-![System Flowchart](diagrams/system-flowchart.png)
+![System Flowchart](system-flowchart.png)
 
 ## Hardware Components
 
