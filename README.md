@@ -113,7 +113,7 @@ Main features:
 
 ## Project Structure
 
-``text``
+```text
 Project/
 ├── Blinky.c                 # Main Media Center menu
 ├── photo_gallery.c          # Photo gallery menu
