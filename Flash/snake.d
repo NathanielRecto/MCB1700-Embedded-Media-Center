@@ -1,0 +1,14 @@
+.\flash\snake.o: snake.c
+.\flash\snake.o: C:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.H
+.\flash\snake.o: C:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h
+.\flash\snake.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\snake.o: C:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\flash\snake.o: C:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\flash\snake.o: C:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\flash\snake.o: C:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\flash\snake.o: C:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h
+.\flash\snake.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\flash\snake.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\snake.o: KBD.h
+.\flash\snake.o: GLCD.h
+.\flash\snake.o: LED.h
