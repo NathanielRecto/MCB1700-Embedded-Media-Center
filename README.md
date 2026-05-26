@@ -127,7 +127,7 @@ Project/
 ├── LED.c                    # LED driver
 ├── images/                  # Converted bitmap C files
 └── audio/                   # USB audio demo support files
-
+```
 ## How to Run
 
 1. Open the project in **Keil µVision**.
