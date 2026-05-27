@@ -1,9 +1,5 @@
 # MCB1700 Embedded Media Center
 
-## Project Title
-
-MCB1700 Embedded Media Center
-
 ## Motivation
 
 This project was created for a course involving Embedded Systems Design to demonstrate an interactive embedded application using the MCB1700 development board and Keil µVision. The goal was to combine several course concepts into one working media center. The system includes a photo gallery, a USB audio player, and a game section with Snake and Blackjack. It uses the GLCD, joystick, LEDs, potentiometer, USB audio, ADC, DAC, and board support drivers.
