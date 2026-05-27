@@ -173,3 +173,8 @@ Project/
 ├── KBD.c                 # Joystick driver
 ├── LED.c                 # LED driver
 └── README.md
+```
+
+## License
+
+This repository is for academic and portfolio use. If you reuse this project, follow your institution's academic integrity policy and do not submit it as your own work.
